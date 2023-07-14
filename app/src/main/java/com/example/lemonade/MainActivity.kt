@@ -22,7 +22,6 @@ import android.widget.TextView
 import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
-
     /**
      * DO NOT ALTER ANY VARIABLE OR VALUE NAMES OR THEIR INITIAL VALUES.
      *
@@ -193,7 +192,7 @@ class MainActivity : AppCompatActivity() {
  * and determines how many times a lemon needs to be squeezed before you get lemonade.
  */
 class LemonTree {
-    fun pick(): Int {
+    fun pick(): Int{
         return (2..4).random()
     }
 }
